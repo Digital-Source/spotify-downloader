@@ -8,6 +8,15 @@
 __pycache__
 .mypy_cache
 
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
 # vscode
 .vscode
 
@@ -23,6 +32,7 @@ spotdl.egg-info/*
 # setuptools and PyInstaller
 build
 dist
-
-# PyInstaller
 *.spec
+
+# Jetbrains IDEs; PyCharm/IntelliJ
+.idea
